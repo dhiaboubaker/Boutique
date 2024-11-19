@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* Ajout d'un fond et d'une couleur de texte pour la navbar */
+.navbar {
+    background-color: #343a40; /* Couleur de fond sombre */
+    color: white; /* Couleur du texte */
+}
+
+/* Personnaliser les liens de navigation */
+.nav-link {
+    color: #ffffff; /* Couleur des liens */
+    transition: color 0.3s; /* Effet de transition pour le survol */
+}
+
+.nav-link:hover {
+    color: #f8f9fa; /* Couleur du texte au survol */
+}
+
+/* Styles pour la barre de navigation active */
+.nav-link.active {
+    font-weight: bold; /* Mettre en gras l'élément actif */
+    border-bottom: 2px solid #f8f9fa; /* Ligne sous l'élément actif */
+}
+
+/* Personnaliser le bouton toggler */
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1); /* Couleur de la bordure du bouton */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 30 30'%3E%3Cpath stroke='currentColor' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Style du corps de la page */
+body {
+    background-color: #f8f9fa; /* Couleur de fond de la page */
+    font-family: Arial, sans-serif; /* Police de la page */
+}
+
+/* Ajout d'un espacement pour le contenu */
+.container {
+    margin-top: 20px; /* Espacement supérieur */
+}

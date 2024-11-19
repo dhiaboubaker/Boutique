@@ -1,0 +1,47 @@
+/* styles.css */
+
+/* Styles pour le conteneur des produits */
+.row {
+  margin: 20px 0; /* Marges pour espacer les lignes */
+}
+
+/* Styles pour chaque produit */
+.col {
+  border: 1px solid #ddd; /* Bordure légère autour des produits */
+  border-radius: 5px; /* Coins arrondis */
+  padding: 15px; /* Espacement intérieur */
+  text-align: center; /* Centrer le texte */
+  transition: box-shadow 0.3s; /* Effet de transition pour l'ombre */
+}
+
+.col:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre au survol */
+}
+
+/* Styles pour les titres de produit */
+h5 {
+  font-size: 1.25rem; /* Taille de police pour le nom du produit */
+  color: #333; /* Couleur du texte */
+}
+
+/* Styles pour le prix */
+h6 {
+  font-size: 1rem; /* Taille de police pour le prix */
+  color: #007bff; /* Couleur bleu Bootstrap */
+}
+
+/* Styles pour le bouton */
+.btn {
+  margin-top: 10px; /* Espacement au-dessus du bouton */
+}
+
+/* Espacement général dans le corps de la page */
+body {
+  background-color: #f8f9fa; /* Couleur de fond de la page */
+  font-family: Arial, sans-serif; /* Police générale */
+}
+
+/* Ajout d'une marge en bas pour le composant de détails */
+app-home-details-products {
+  margin-top: 20px; /* Espacement au-dessus du composant de détails */
+}

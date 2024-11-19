@@ -1,0 +1,14 @@
+.product-image {
+    text-align: center; /* Centrer le contenu */
+    margin-bottom: 15px; /* Espacement en bas */
+}
+
+.product-image img {
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Bordure claire autour de l'image */
+    border-radius: 5px; /* Coins arrondis pour l'image */
+    transition: border-color 0.3s; /* Transition pour le changement de couleur de bordure */
+}
+
+.product-image img:hover {
+    border-color: rgba(0, 0, 0, 0.4); /* Couleur de bordure plus sombre au survol */
+}

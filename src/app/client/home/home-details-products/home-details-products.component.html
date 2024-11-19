@@ -1,0 +1,8 @@
+ 
+<div *ngIf="prod.image">
+   <img [src]="prod.image" width="100px" alt="{{ prod.nom }}">
+   <h5>{{ prod.nom }}</h5>
+   <h6>{{ prod.prix }} DT</h6>
+   <p><strong>Category ID:</strong> {{ prod.categId }}</p>
+   <p><strong>Description:</strong> {{ prod.description }}</p>
+</div>

@@ -1,0 +1,17 @@
+<h1>{{title}}</h1>
+<div class="row">
+    <div class="col row">
+        <div *ngFor="let prod of produits" class="col">
+            <h5>{{prod.nom}}</h5>
+            <img *ngIf="prod.image" src={{prod.image}} width="100px">
+            <h6>{{prod.prix}}DT</h6>
+
+            <button *ngIf="prod.description" (click)="onDetails(prod)">details </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<app-home-details-products *ngIf=selectProduit [prod]="selectProduit"></app-home-details-products>
